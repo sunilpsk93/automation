@@ -1,10 +1,9 @@
 ﻿get-date
-
 $input_path = "E:\Automation\output\reservation_input.csv"
 $scope_export_path = "E:\Automation\output\scopereport.csv"
 $scope_option_export_path = "E:\Automation\output\scopeoptionreport.csv"
 $reservation_export_path = "E:\Automation\output\reservation.csv"
-$comp = "10.237.36.104" #server_to_create_new_Scopes.
+$comp = "10.237.36.155" #server_to_create_new_Scopes.
 
 $server = Import-Csv $input_path
 
