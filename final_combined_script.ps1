@@ -1,1 +1,1 @@
-get-service
+uname -a
